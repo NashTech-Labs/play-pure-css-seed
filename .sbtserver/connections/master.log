@@ -1,0 +1,47 @@
+New log file opened at Thu Mar 02 23:32:20 IST 2017 by 14402@knoldus
+Taking next connection to: 40757
+New client attempting to connect on port: 46472-40757
+  Address = /127.0.1.1:40757
+This client on port 46472 has uuid 72543a49-da11-460d-8cee-3c6c00d42c12 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-72543a49-da11-460d-8cee-3c6c00d42c12
+Taking next connection to: 40757
+New client attempting to connect on port: 46474-40757
+  Address = /127.0.1.1:40757
+Handshake exception on socket: 46474
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 40757
+New client attempting to connect on port: 46476-40757
+  Address = /127.0.1.1:40757
+This client on port 46476 has uuid 64eebce6-10db-4cd8-bdce-23e33fced5be configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-72543a49-da11-460d-8cee-3c6c00d42c12, activator-64eebce6-10db-4cd8-bdce-23e33fced5be
+Taking next connection to: 40757
+New client attempting to connect on port: 47556-40757
+  Address = /127.0.1.1:40757
+Handshake exception on socket: 47556
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 40757
+New client attempting to connect on port: 47558-40757
+  Address = /127.0.1.1:40757
+This client on port 47558 has uuid 19b9cc80-c165-46e9-ba71-fec2e8dc14cf configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-72543a49-da11-460d-8cee-3c6c00d42c12, play-fork-run-19b9cc80-c165-46e9-ba71-fec2e8dc14cf
+Taking next connection to: 40757

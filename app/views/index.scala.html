@@ -1,0 +1,52 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Welcome to Play") {
+
+<div class="pure-menu pure-menu-horizontal">
+ <a href="#" class="pure-menu-heading pure-menu-link">Play Template Designed Using Pure.css</a>
+ <div>
+  <form class="pure-form pure-form-aligned">
+   <fieldset>
+    <div class="pure-control-group">
+     <label for="name">Username</label>
+     <input id="name" type="text" placeholder="Username">
+     <span class="pure-form-message-inline">This is a required field.</span>
+    </div>
+
+    <div class="pure-control-group">
+     <label for="password">Password</label>
+     <input id="password" type="password" placeholder="Password">
+    </div>
+
+    <div class="pure-control-group">
+     <label for="email">Email Address</label>
+     <input id="email" type="email" placeholder="Email Address">
+    </div>
+
+    <div class="pure-control-group">
+     <label for="foo">Label</label>
+     <input id="foo" type="text" placeholder="Enter something here...">
+    </div>
+
+    <div class="pure-controls">
+     <label for="cb" class="pure-checkbox">
+      <input id="cb" type="checkbox"> I've read the terms and conditions
+     </label>
+
+     <button type="submit" class="pure-button pure-button-primary">Submit</button>
+    </div>
+   </fieldset>
+  </form>
+ </div>
+</div>
+
+}
